@@ -1,0 +1,29 @@
+.menu{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.menu .contenido{
+	color: black;
+}
+
+.menu img{
+	width: 350px;
+	margin-top: 20px;
+}
+
+.img_g{
+	margin-top: 60px !important;
+}
+
+.imagen{
+	text-align: center;
+}
+
+.Ingredientes{
+	margin-top: 40px;
+}
+
+.separador{
+	text-align: center;
+}

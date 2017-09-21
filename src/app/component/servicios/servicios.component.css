@@ -1,0 +1,42 @@
+.servicios .row{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.servicios .row h3{
+	color: black;
+	background-color: rgba(179,179,179,0.6);
+	border-radius: 10px;
+}
+
+.servicios .row img{
+	width: 250px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.espacios{
+	margin-bottom: 15px;
+}
+
+.img_otro{
+	height: 160px;
+}
+
+.img_fiesta{
+	width: 300px !important;
+}
+
+.modal p, .modal h5{
+	color: black;
+}
+
+.btnmn{
+	margin-top: 10px;
+}
+
+strong{
+	font-family: 'Handlee', cursive;
+	font-size: 1.3rem;
+}
+

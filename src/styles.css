@@ -1,1 +1,148 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+	background-image: url(./assets/cuchillo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: #F6F4E9;
+	font-family: 'Lato', sans-serif;	
+}
+img{
+	max-width: 100%;
+	border-radius: 8px;
+}
+.popover-title, .popover-content{
+	color: black !important;
+}
+.boton1{
+	background:none;
+	cursor: pointer;
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+}
+.boton2{
+	background:none;
+	cursor: pointer;
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+}
+.boton3{
+	background:none;
+	cursor: pointer;
+	border-radius: 4px;
+	padding: 10px;
+}
+a,a:link{
+	text-decoration: none;
+	text-align: center;
+	color: #969386;
+}
+a:hover{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	transition-delay: 0;
+}
+.boton1:hover,.boton2:hover,.boton3:hover{
+	color: white;
+	border: 2px solid white;
+	background-color: #333;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	transition-delay: 0;
+}
+.negro{
+	color: #969386;
+}
+.tamas{
+	font-size: 1.45em;
+}
+.quitar-float{
+	float: none;
+}
+.espacio-arriba{
+	margin-top: 80px;
+}
+.mediano{
+	font-size: 1.5em;
+}
+.blanco{
+	color: #E8E6DC;
+}
+.vete-arriba{
+	vertical-align: top;
+}
+.inline-block{
+	float: none;
+	display: inline-block;
+	margin-left: -4px;
+}
+.se-gris{
+	background-color: #7B98A8;
+}
+.padding-largo{
+	padding: 5px 10px;
+}
+.no-lista{
+	padding: 0;
+	margin: 0;
+}
+.no-lista li{
+	list-style-type: none;
+	text-decoration: none;
+}
+.espacio-derecha{
+	margin-right: 1em;
+}
+.caveat{
+	font-family: 'Caveat Brush', cursive;
+}
+.grande{
+	font-size: 3.5em;
+}
+.retraso-1s{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.retraso-2s{
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+.footer{
+	background-color: black;
+	z-index: 10;
+}
+
+.footer .container{
+	padding: 30px 15px 30px 15px;
+}
+
+.texto_footer{
+	text-align: right;
+}
+
+.titulo{
+	font-family: 'Handlee', cursive;
+	text-align: center;
+	border: 1px white solid;
+	padding-top: 20px;
+}
+
+.logo_apetitus{
+	width: 40%;
+	margin-top: 20px;
+}
+
+.terminos{
+	text-align: center;
+}
+
+.terminos p{
+	font-family: 'Lobster Two', cursive;
+	font-size: small;
+}
