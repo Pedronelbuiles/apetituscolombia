@@ -146,3 +146,10 @@ a:hover{
 	font-family: 'Lobster Two', cursive;
 	font-size: small;
 }
+
+@media screen and (max-width: 640px){
+	.dimensiones_logo, .texto_footer{
+		text-align: center;
+		padding-bottom: 10px;
+	}
+}
